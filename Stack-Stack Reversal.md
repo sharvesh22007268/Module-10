@@ -21,9 +21,21 @@ To write a Python program that reverses the values in a stack using standard sta
 
 
 ### Program:
-Add Code Here
+```
+def fun(r):
+    de =deque([])
+    n=int(input())
+    for i in range(n):
+        de.append(input())
+    print("Stack before rotation",de)
+    de.rotate(r)
+    print("Stack after rotation",de)
+```
 
 ## 🧪 Sample Input and Output
+<img width="1171" height="303" alt="image" src="https://github.com/user-attachments/assets/d6966fd1-4f0f-44b7-9700-0bb9e98538b5" />
+
 
 ## Result
+Thus the program is verified
 
